@@ -7,7 +7,15 @@ import { RouterLink, RouterView } from 'vue-router'
     <h1 class="text-2xl">Base avec pages</h1>
     <nav>
       <ul>
-        <li><RouterLink to="/">Accueil</RouterLink></li>
+        <li><RouterLink activeClass="text-red-700 font-bold" to="/">Accueil</RouterLink></li>
+        <li>
+          <RouterLink activeClass="text-red-700 font-bold" to="/autre-page">Autre Page</RouterLink>
+        </li>
+        <li>
+          <RouterLink activeClass="text-red-700 font-bold" to="/sous-dossier"
+            >sous-dossier</RouterLink
+          >
+        </li>
       </ul>
     </nav>
   </header>
