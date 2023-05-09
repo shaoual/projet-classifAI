@@ -16,6 +16,13 @@ import { RouterLink, RouterView } from 'vue-router'
             >sous-dossier</RouterLink
           >
         </li>
+        <li>
+          <RouterLink
+            activeClass="text-red-700 font-bold"
+            :to="{ name: 'sous-dossier-nomParam', params: { nomParam: 'valeur en paramétre' } }"
+            >sous-dossier avec paramétre</RouterLink
+          >
+        </li>
       </ul>
     </nav>
   </header>
