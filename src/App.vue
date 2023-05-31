@@ -1,36 +1,27 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import Header from './components/HeaderPage.vue'
+import Footer from './components/FooterPage.vue'
+import FacebookIcon from '@/components/icons/IconFacebook.vue'
+import InstagramIcon from '@/components/icons/IconInstagram.vue'
+import Connexion from './components/connexion.vue'
+import seconnecter from '@/components/seconnecter.vue'
+import Contact from '@/components/Contact.vue'
 </script>
 
+
+
 <template>
-  <header>
-    <h1 class="text-2xl">Base avec pages</h1>
-    <nav>
-      <ul>
-        <li><RouterLink activeClass="text-red-700 font-bold" to="/">Accueil</RouterLink></li>
-        <li>
-          <RouterLink activeClass="text-red-700 font-bold" to="/autre-page">Autre Page</RouterLink>
-        </li>
-        <li>
-          <RouterLink activeClass="text-red-700 font-bold" to="/sous-dossier"
-            >sous-dossier</RouterLink
-          >
-        </li>
-        <li>
-          <RouterLink
-            activeClass="text-red-700 font-bold"
-            :to="{ name: 'sous-dossier-nomParam', params: { nomParam: 'valeur en paramétre' } }"
-            >sous-dossier avec paramétre</RouterLink
-          >
-        </li>
-      </ul>
-    </nav>
-  </header>
+  
+  
 
   <!-- Les pages s'affichent ici -->
   <RouterView />
-
-  <footer>
-    <!--  -->
-  </footer>
+<Header />
+  
+<Connexion />
+<seconnecter/>
+<Contact/>
+  
+<Footer />
 </template>
