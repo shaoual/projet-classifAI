@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    height: 100%;
+  }
+  
+ 
+  body {
+    background-image: url('/Projet_web/font.png');
+    background-size: cover;
+  }

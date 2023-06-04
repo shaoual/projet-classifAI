@@ -44,7 +44,7 @@ const menuIsOpen = ref(false)
     </li>
     <hr class="border-gray-500">
     <li>
-      <RouterLink class="text-gray-500 p-4 block rounded-lg" to="/Proposer une IA">Proposer une IA</RouterLink>
+      <RouterLink class="text-gray-500 p-4 block rounded-lg" to="/Proposer">Proposer une IA</RouterLink>
     </li>
     <hr class="border-gray-500">
     <li>

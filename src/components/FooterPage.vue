@@ -27,10 +27,19 @@ import logo from '@/components/logo.vue'
 
     <nav class="space-y-3 lg:text-right">
   <ul>
-    <li><a href="#">Politique de confidentialité</a></li>
-    <li><a href="#">Cookies</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">À propos</a></li>
+    <li>
+      <RouterLink class="text-white p-4 block rounded-lg active" to="/politique">Politique de confidentialité</RouterLink>
+    </li>
+    <li>
+      <RouterLink class="text-white p-4 block rounded-lg" to="/cookie">Cookies</RouterLink>
+    </li>
+    <li>
+      <RouterLink class="text-white p-4 block rounded-lg" to="/Contact">Contact</RouterLink>
+    </li>
+    <li >
+      <RouterLink class="text-white p-4 block rounded-lg" to="/apropos">À propos</RouterLink>
+    </li>
+   
   </ul>
 </nav>
    
