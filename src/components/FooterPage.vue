@@ -34,7 +34,7 @@ import logo from '@/components/logo.vue'
       <RouterLink class="text-white p-4 block rounded-lg" to="/cookie">Cookies</RouterLink>
     </li>
     <li>
-      <RouterLink class="text-white p-4 block rounded-lg" to="/Contact">Contact</RouterLink>
+      <RouterLink class="text-white p-4 block rounded-lg" to="/Lexica">Contact</RouterLink>
     </li>
     <li >
       <RouterLink class="text-white p-4 block rounded-lg" to="/apropos">À propos</RouterLink>
