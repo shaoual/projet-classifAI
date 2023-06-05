@@ -8,40 +8,64 @@ import { RouterLink } from 'vue-router'
 
 <template> 
 
-<h1 class="text-3xl font-bold text-white">Politique de confidentialité</h1>
+<h1 class="text-xl font-bold m-[60px] text-white">Politique de confidentialité</h1>
 
 
-<p>
+<p class="text-sm  mb-[-45px] m-[60px] text-white">
 
-    Chez ClassifAI, nous nous engageons à protéger la vie privée de nos utilisateurs. Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et partageons les informations que nous recueillons lors de votre utilisation de notre site web et de nos services.
-
-Collecte d'informations 
-
-Nous pouvons recueillir des informations personnelles telles que votre nom, votre adresse électronique, votre numéro de téléphone et votre adresse postale lorsque vous utilisez notre site ou nos services. Nous pouvons également recueillir des informations non personnelles telles que votre adresse IP, le type de navigateur que vous utilisez et les pages que vous visitez sur notre site.
-
-Utilisation des informations 
-
-Nous utilisons les informations que nous recueillons pour fournir, maintenir et améliorer notre site et nos services, pour communiquer avec vous, pour personnaliser votre expérience d'utilisateur et pour nous conformer aux exigences légales.
-
-Nous pouvons également utiliser vos informations pour vous envoyer des informations sur nos produits, services ou promotions. Si vous ne souhaitez pas recevoir ces communications, vous pouvez vous désinscrire en utilisant le lien fourni dans chaque e-mail ou en nous contactant à l'adresse indiquée dans la section "Nous contacter" ci-dessous.
-
-Stockage des informations 
-
-Nous stockons les informations que nous recueillons sur des serveurs sécurisés. Nous utilisons des mesures de sécurité appropriées pour protéger vos informations contre l'accès, la divulgation, l'altération ou la destruction non autorisés.
-
-Partage des informations 
-
-Nous ne partageons pas vos informations personnelles avec des tiers, sauf si cela est nécessaire pour fournir nos services ou si la loi l'exige. Nous pouvons partager des informations non personnelles, telles que des données d'utilisation, avec des tiers afin d'améliorer nos services et la convivialité de notre site.
-
-Cookies et technologies similaires 
-
-Nous utilisons des cookies et des technologies similaires sur notre site. Veuillez consulter notre politique en matière de cookies pour plus d'informations sur la manière dont nous utilisons les cookies.
-
-Vos choix concernant vos informations Vous pouvez modifier ou supprimer vos informations personnelles en nous contactant à l'adresse indiquée dans la section "Nous contacter" ci-dessous. Si vous choisissez de supprimer vos informations, il se peut que nous ne soyons plus en mesure de vous fournir nos services.
-
-Modifications de la présente politique de confidentialité 
-
-Nous pouvons mettre à jour la présente politique de confidentialité de temps à autre en publiant une nouvelle version sur notre site. Nous vous recommandons de consulter régulièrement la présente politique de confidentialité afin de prendre connaissance de toute modification.
+    Chez ClassifAI, nous nous engageons à protéger la vie privée de nos utilisateurs. Cette 
+    politique de confidentialité explique comment nous collectons, utilisons, stockons et partageons
+    les informations que nous recueillons lors de votre utilisation de notre site web et de nos services.
+</p>
+<p class="text-sm  mb-[-45px] m-[60px] text-white">
+Collecte d'informations </p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Nous pouvons recueillir des informations personnelles telles que votre nom, votre adresse électronique, 
+votre numéro de téléphone et votre adresse postale lorsque vous utilisez notre site ou nos services. Nous 
+pouvons également recueillir des informations non personnelles telles que votre adresse IP, le type de navigateur 
+que vous utilisez et les pages que vous visitez sur notre site.
+</p>
+<p class="text-sm  mb-[-45px] m-[60px] text-white">
+Utilisation des informations </p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Nous utilisons les informations que nous recueillons pour fournir, maintenir et améliorer notre site et nos services, 
+pour communiquer avec vous, pour personnaliser votre expérience d'utilisateur et pour nous conformer aux exigences légales.
+</p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Nous pouvons également utiliser vos informations pour vous envoyer des informations sur nos produits, services ou promotions. 
+Si vous ne souhaitez pas recevoir ces communications, vous pouvez vous désinscrire en utilisant le lien fourni dans chaque e-mail 
+ou en nous contactant à l'adresse indiquée dans la section "Nous contacter" ci-dessous.
+</p>
+<p class="text-sm mb-[-45px] m-[60px] text-white">
+Stockage des informations </p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Nous stockons les informations que nous recueillons sur des serveurs sécurisés. Nous utilisons des mesures de sécurité 
+appropriées pour protéger vos informations contre l'accès, la divulgation, l'altération ou la destruction non autorisés.
+</p>
+<p class="text-sm mb-[-45px]  m-[60px] text-white">
+Partage des informations </p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Nous ne partageons pas vos informations personnelles avec des tiers, sauf si cela est nécessaire pour fournir nos services 
+ou si la loi l'exige. Nous pouvons partager des informations non personnelles, telles que des données d'utilisation, avec 
+des tiers afin d'améliorer nos services et la convivialité de notre site.
+</p>
+<p class="text-sm  mb-[-45px] m-[60px] text-white">
+Cookies et technologies similaires </p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Nous utilisons des cookies et des technologies similaires sur notre site. Veuillez consulter notre politique en matière 
+de cookies pour plus d'informations sur la manière dont nous utilisons les cookies.
+</p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Vos choix concernant vos informations Vous pouvez modifier ou supprimer vos informations personnelles en nous contactant 
+à l'adresse indiquée dans la section "Nous contacter" ci-dessous. Si vous choisissez de supprimer vos informations, il se 
+peut que nous ne soyons plus en mesure de vous fournir nos services.
+</p>
+<p class="text-sm  mb-[-45px] m-[60px] text-white">
+Modifications de la présente politique de confidentialité </p>
+<p class="text-sm  mb-8 m-[60px] text-white">
+Nous pouvons mettre à jour la présente politique de confidentialité de temps à autre en publiant une nouvelle version 
+sur notre site. Nous vous recommandons de consulter régulièrement la présente politique de confidentialité afin de prendre 
+connaissance de toute modification.
 </p>
 
 
@@ -64,19 +88,12 @@ Nous pouvons mettre à jour la présente politique de confidentialité de temps 
                 <div class="w-full flex-none text-sm flex items-center text-gray-600">
                     <svg width="56" height="52" viewBox="0 0 56 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <rect width="56" height="51.9348" rx="10" fill="url(#pattern0)"/>
-  <defs>
-  <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-  <use xlink:href="#image0_1_651" transform="matrix(0.00714286 0 0 0.00770196 0 -0.0160312)"/>
-  </pattern>
-  <image id="image0_1_651" width="140" height="134" xlink:href="data:image/png;base64,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"/>
-  </defs>
+  
   </svg>
                   <span class="text-gray-400 whitespace-nowrap mr-3">4.60</span><span class="mr-2 text-gray-400">India</span>
                 </div>
-                <div class="flex items-center w-full justify-between min-w-0 ">
-                  <h2 class="text-sm mr-auto cursor-pointer text-gray-200 hover:text-purple-500 truncate ">Lorem ipsum
-                    is placeholder text commonly used in the graphic</h2>
-                 
+                
+                  
                     <svg width="99" height="53" viewBox="0 0 99 53" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M77.6541 39.2505L82.8587 28.955V28.8641H76.8587V27.6141H84.3132V28.9323L79.1314 39.2505H77.6541ZM86.4311 39.2505V38.2278L90.272 34.0232C90.7228 33.5308 91.094 33.1028 91.3857 32.7391C91.6773 32.3717 91.8932 32.027 92.0334 31.705C92.1773 31.3793 92.2493 31.0384 92.2493 30.6823C92.2493 30.2732 92.1508 29.919 91.9538 29.6198C91.7607 29.3206 91.4955 29.0895 91.1584 28.9266C90.8213 28.7637 90.4425 28.6823 90.022 28.6823C89.575 28.6823 89.1849 28.7751 88.8516 28.9607C88.522 29.1425 88.2663 29.3982 88.0845 29.7278C87.9065 30.0573 87.8175 30.4437 87.8175 30.8869H86.4766C86.4766 30.205 86.6338 29.6065 86.9482 29.0914C87.2625 28.5762 87.6906 28.1747 88.2322 27.8869C88.7777 27.599 89.3894 27.455 90.0675 27.455C90.7493 27.455 91.3535 27.599 91.88 27.8869C92.4065 28.1747 92.8194 28.563 93.1186 29.0516C93.4179 29.5403 93.5675 30.0838 93.5675 30.6823C93.5675 31.1103 93.4898 31.5289 93.3345 31.938C93.183 32.3433 92.9179 32.7959 92.5391 33.2959C92.1641 33.7922 91.6432 34.3982 90.9766 35.1141L88.3629 37.9096V38.0005H93.772V39.2505H86.4311Z" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M85.1665 5.31397C87.1085 3.55966 91.9626 6.63125 85.1665 10.5794C78.3704 6.63125 83.2246 3.56089 85.1665 5.31644V5.31397Z" fill="#FBFBFB"/>
@@ -84,9 +101,9 @@ Nous pouvons mettre à jour la présente politique de confidentialité de temps 
 <path d="M11.0746 30C10.9496 29.6174 10.7848 29.2746 10.5803 28.9716C10.3795 28.6648 10.139 28.4034 9.85867 28.1875C9.58215 27.9716 9.26776 27.8068 8.91548 27.6932C8.56321 27.5795 8.17685 27.5227 7.75639 27.5227C7.067 27.5227 6.4401 27.7008 5.87571 28.0568C5.31132 28.4129 4.86245 28.9375 4.52912 29.6307C4.19579 30.3239 4.02912 31.1742 4.02912 32.1818C4.02912 33.1894 4.19768 34.0398 4.5348 34.733C4.87192 35.4261 5.32836 35.9508 5.90412 36.3068C6.47988 36.6629 7.1276 36.8409 7.8473 36.8409C8.51397 36.8409 9.10109 36.6989 9.60866 36.4148C10.12 36.1269 10.5178 35.7216 10.8018 35.1989C11.0897 34.6723 11.2337 34.053 11.2337 33.3409L11.6655 33.4318H8.16548V32.1818H12.5973V33.4318C12.5973 34.3902 12.3928 35.2235 11.9837 35.9318C11.5784 36.6402 11.0178 37.1894 10.3018 37.5795C9.58973 37.9659 8.77154 38.1591 7.8473 38.1591C6.817 38.1591 5.9117 37.9167 5.13139 37.4318C4.35488 36.947 3.74882 36.2576 3.31321 35.3636C2.88139 34.4697 2.66548 33.4091 2.66548 32.1818C2.66548 31.2614 2.78859 30.4337 3.0348 29.6989C3.2848 28.9602 3.63707 28.3314 4.09162 27.8125C4.54616 27.2936 5.08404 26.8958 5.70526 26.6193C6.32647 26.3428 7.01018 26.2045 7.75639 26.2045C8.37003 26.2045 8.942 26.2973 9.4723 26.483C10.0064 26.6648 10.4818 26.9242 10.8984 27.2614C11.3189 27.5947 11.6693 27.9943 11.9496 28.4602C12.2299 28.9223 12.4231 29.4356 12.5291 30H11.0746ZM14.8288 38L14.8288 29.2727H16.1243V30.5909H16.2152C16.3743 30.1591 16.6622 29.8087 17.0788 29.5398C17.4955 29.2708 17.9652 29.1364 18.4879 29.1364C18.5864 29.1364 18.7095 29.1383 18.8572 29.142C19.005 29.1458 19.1167 29.1515 19.1925 29.1591V30.5227C19.147 30.5114 19.0429 30.4943 18.88 30.4716C18.7209 30.4451 18.5523 30.4318 18.3743 30.4318C17.95 30.4318 17.5713 30.5208 17.2379 30.6989C16.9084 30.8731 16.647 31.1155 16.4538 31.4261C16.2644 31.733 16.1697 32.0833 16.1697 32.4773V38H14.8288ZM23.3501 38.2045C22.7971 38.2045 22.2952 38.1004 21.8445 37.892C21.3937 37.6799 21.0357 37.375 20.7706 36.9773C20.5054 36.5758 20.3729 36.0909 20.3729 35.5227C20.3729 35.0227 20.4714 34.6174 20.6683 34.3068C20.8653 33.9924 21.1286 33.7462 21.4581 33.5682C21.7876 33.3902 22.1513 33.2576 22.549 33.1705C22.9505 33.0795 23.3539 33.0076 23.7592 32.9545C24.2895 32.8864 24.7195 32.8352 25.049 32.8011C25.3823 32.7633 25.6248 32.7008 25.7763 32.6136C25.9316 32.5265 26.0092 32.375 26.0092 32.1591V32.1136C26.0092 31.553 25.8558 31.1174 25.549 30.8068C25.246 30.4962 24.7857 30.3409 24.1683 30.3409C23.5282 30.3409 23.0263 30.4811 22.6626 30.7614C22.299 31.0417 22.0433 31.3409 21.8956 31.6591L20.6229 31.2045C20.8501 30.6742 21.1532 30.2614 21.532 29.9659C21.9145 29.6667 22.3312 29.4583 22.782 29.3409C23.2365 29.2197 23.6835 29.1591 24.1229 29.1591C24.4032 29.1591 24.7251 29.1932 25.0888 29.2614C25.4562 29.3258 25.8104 29.4602 26.1513 29.6648C26.496 29.8693 26.782 30.178 27.0092 30.5909C27.2365 31.0038 27.3501 31.5568 27.3501 32.25V38H26.0092V36.8182H25.9411C25.8501 37.0076 25.6986 37.2102 25.4865 37.4261C25.2744 37.642 24.9922 37.8258 24.6399 37.9773C24.2876 38.1288 23.8577 38.2045 23.3501 38.2045ZM23.5547 37C24.085 37 24.532 36.8958 24.8956 36.6875C25.263 36.4792 25.5395 36.2102 25.7251 35.8807C25.9145 35.5511 26.0092 35.2045 26.0092 34.8409V33.6136C25.9524 33.6818 25.8274 33.7443 25.6342 33.8011C25.4448 33.8542 25.2251 33.9015 24.9751 33.9432C24.7289 33.9811 24.4884 34.0152 24.2536 34.0455C24.0225 34.072 23.835 34.0947 23.6911 34.1136C23.3426 34.1591 23.0168 34.233 22.7138 34.3352C22.4145 34.4337 22.1721 34.5833 21.9865 34.7841C21.8047 34.9811 21.7138 35.25 21.7138 35.5909C21.7138 36.0568 21.8861 36.4091 22.2308 36.6477C22.5793 36.8826 23.0206 37 23.5547 37ZM33.593 29.2727V30.4091H29.0703V29.2727H33.593ZM30.3885 27.1818H31.7294V35.5C31.7294 35.8788 31.7843 36.1629 31.8942 36.3523C32.0078 36.5379 32.1518 36.6629 32.326 36.7273C32.504 36.7879 32.6915 36.8182 32.8885 36.8182C33.0362 36.8182 33.1574 36.8106 33.2521 36.7955C33.3468 36.7765 33.4226 36.7614 33.4794 36.75L33.7521 37.9545C33.6612 37.9886 33.5343 38.0227 33.3714 38.0568C33.2086 38.0947 33.0021 38.1136 32.7521 38.1136C32.3733 38.1136 32.0021 38.0322 31.6385 37.8693C31.2786 37.7064 30.9794 37.4583 30.7408 37.125C30.5059 36.7917 30.3885 36.3712 30.3885 35.8636V27.1818ZM41.1101 34.4318V29.2727H42.451V38H41.1101V36.5227H41.0192C40.8146 36.9659 40.4964 37.3428 40.0646 37.6534C39.6328 37.9602 39.0874 38.1136 38.4283 38.1136C37.8828 38.1136 37.398 37.9943 36.9737 37.7557C36.5495 37.5133 36.2161 37.1496 35.9737 36.6648C35.7313 36.1761 35.6101 35.5606 35.6101 34.8182V29.2727H36.951V34.7273C36.951 35.3636 37.129 35.8712 37.4851 36.25C37.8449 36.6288 38.3033 36.8182 38.8601 36.8182C39.1934 36.8182 39.5324 36.733 39.8771 36.5625C40.2256 36.392 40.5173 36.1307 40.7521 35.7784C40.9908 35.4261 41.1101 34.9773 41.1101 34.4318ZM44.907 38V29.2727H46.2479V38H44.907ZM45.5888 27.8182C45.3274 27.8182 45.102 27.7292 44.9126 27.5511C44.727 27.3731 44.6342 27.1591 44.6342 26.9091C44.6342 26.6591 44.727 26.4451 44.9126 26.267C45.102 26.089 45.3274 26 45.5888 26C45.8501 26 46.0736 26.089 46.2592 26.267C46.4486 26.4451 46.5433 26.6591 46.5433 26.9091C46.5433 27.1591 46.4486 27.3731 46.2592 27.5511C46.0736 27.7292 45.8501 27.8182 45.5888 27.8182ZM52.4993 29.2727V30.4091H47.9766V29.2727H52.4993ZM49.2947 27.1818H50.6357V35.5C50.6357 35.8788 50.6906 36.1629 50.8004 36.3523C50.9141 36.5379 51.058 36.6629 51.2322 36.7273C51.4103 36.7879 51.5978 36.8182 51.7947 36.8182C51.9425 36.8182 52.0637 36.8106 52.1584 36.7955C52.2531 36.7765 52.3288 36.7614 52.3857 36.75L52.6584 37.9545C52.5675 37.9886 52.4406 38.0227 52.2777 38.0568C52.1148 38.0947 51.9084 38.1136 51.6584 38.1136C51.2796 38.1136 50.9084 38.0322 50.5447 37.8693C50.1849 37.7064 49.8857 37.4583 49.647 37.125C49.4122 36.7917 49.2947 36.3712 49.2947 35.8636V27.1818Z" fill="#FBFBFB"/>
 <path d="M27.48 7.59788C25.21 7.03044 24.48 6.44377 24.48 5.5301C24.48 4.48178 25.49 3.75085 27.18 3.75085C28.96 3.75085 29.62 4.56834 29.68 5.77054H31.89C31.82 4.11632 30.77 2.59674 28.68 2.10625V0L25.68 0V2.07739C23.74 2.48133 22.18 3.69315 22.18 5.54934C22.18 7.77099 24.09 8.87701 26.88 9.52139C29.38 10.0984 29.88 10.9448 29.88 11.8392C29.88 12.5028 29.39 13.5608 27.18 13.5608C25.12 13.5608 24.31 12.6759 24.2 11.5411H22C22.12 13.6473 23.76 14.8303 25.68 15.2246V17.3116H28.68V15.2438C30.63 14.888 32.18 13.8012 32.18 11.8296C32.18 9.09822 29.75 8.16531 27.48 7.59788Z" fill="#FBFBFB"/>
 </svg>
-                </div>
+                
               </div>
-              <div class="text-xl text-white font-semibold mt-1">$240.00</div>
+              
             </div>
 
               <div class="flex space-x-2 text-sm font-medium justify-start">
