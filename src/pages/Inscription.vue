@@ -64,7 +64,7 @@ import PocketBase from 'pocketbase'
   <RouterView />
   </template> 
   
-  <script>
+  <script setup>
 export const pb = new PocketBase('http://193.168.146.83:8090') ;
 export default {
   methods: {
