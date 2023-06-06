@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import hero from '@/components/hero.vue'
+import { allIA } from '@/backend';
+import CardVue from '@/components/card.vue'
+const IAListe = await allIA();
 
 </script>
 
@@ -58,5 +61,10 @@ traduction automatique.
 
  </div>
 
- 
+ <main>
+    
+    <CardVue v-for="uneIA in IAListe" :key="uneIA.id"
+     v-bind="{...uneIA}"/>
+  </main>
+  
 </template>
