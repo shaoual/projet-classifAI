@@ -2,7 +2,6 @@
   <script setup lang="ts">
 import { ref } from 'vue'
 import logo from '@/components/logo.vue'
-import drapeau from '@/components/icons/drapeau.vue'
 import iconsoleil from '@/components/icons/iconsoleil.vue'
 import { RouterLink } from 'vue-router'
 
@@ -49,7 +48,7 @@ function closeMenu() {
     <li class="lg:hidden"><RouterLink class="text-light-gray p-4 block rounded-lg" to="/Seconnecter">Se connecter</RouterLink></li>
     <li class="flex justify-start items-center lg:hidden">
       <RouterLink to="/" class="mr-2">
-        <drapeau/>
+        <img src="/public/projet_web/englishflag.webp"  alt="card">
       </RouterLink>
       <RouterLink to="/" class="ml-2">
         <iconsoleil/>
@@ -60,7 +59,7 @@ function closeMenu() {
 
 <div class="hidden lg:flex items-center gap-4 px-4 lg:flex-row">
   <RouterLink to="/">
-    <drapeau/>
+    <img src="/public/projet_web/englishflag.webp"  alt="card">
   </RouterLink>
 
   <RouterLink to="/">

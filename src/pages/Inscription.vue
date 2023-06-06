@@ -1,3 +1,8 @@
+<script setup>
+import PocketBase from 'pocketbase'
+import { ref } from 'vue';
+</script>
+
 <template>
   <main class="main-content">
     <h2 class="text-center">S'INSCRIRE</h2>
@@ -49,10 +54,9 @@
   </main>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-import PocketBase from 'pocketbase';
 
+
+<script>
 const pb = new PocketBase('http://127.0.0.1:8090');
 
 const register = async () => {

@@ -1,10 +1,7 @@
 <script setup lang="ts">
 import hero from '@/components/hero.vue'
 import { allIA } from '@/backend';
-import CardVue from '@/components/Card.vue'
-import InscriptionVue from './pages/Inscription'
-
-
+import CardVue from '@/components/Card.vue'    
 </script>
 
 
