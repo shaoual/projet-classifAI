@@ -34,7 +34,7 @@
     <button class="flex bg-violet-900 text-white rounded-lg py-2 px-5 items-center justify-center gap-3">
       <Iconview />
       
-      <RouterLink to="/Lexica">Voir le site</RouterLink>
+      <RouterLink to="/Lexica">En savoir plus</RouterLink>
     </button>
   </div>
     </div>
