@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router'
   
 
   <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5 mt-20 mb-44">
-    <RouterLink to="/Lexica.vue">
+    <RouterLink to="/Lexica">
     <Card1/>
   </RouterLink> 
     <card1/>
