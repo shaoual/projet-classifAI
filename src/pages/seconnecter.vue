@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 </script>
@@ -28,7 +27,9 @@ import { RouterView } from 'vue-router'
           </div>
         </div>
 
+        <RouterLink to="/email">
           <p class="mt-10 text-center text-white text-sm ">J'ai oublié mon mot de passe</p>
+        </RouterLink>
 
         <div class="flex justify-center space-x-4">
             <RouterLink to="/Inscription"><button class="bg-white text-black font-bold py-2 px-5 rounded inline-flex items-center lg:flex-row">S'inscrire</button></RouterLink>
@@ -39,4 +40,3 @@ import { RouterView } from 'vue-router'
 
   </main>
   </template>
-  
