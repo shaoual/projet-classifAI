@@ -33,10 +33,8 @@
     </button>
     <button class="flex bg-violet-900 text-white rounded-lg py-2 px-5 items-center justify-center gap-3">
       <Iconview />
-      Voir le site
-      <RouterLink to="/Lexica.vue">
-    <Card1/>
-  </RouterLink>
+      
+      <RouterLink to="/Lexica">Voir le site</RouterLink>
     </button>
   </div>
     </div>
