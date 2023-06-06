@@ -1,5 +1,4 @@
-
-  <script setup lang="ts">
+<script setup lang="ts">
 import { ref } from 'vue'
 import logo from '@/components/logo.vue'
 import iconsoleil from '@/components/icons/iconsoleil.vue'
@@ -7,9 +6,9 @@ import { RouterLink } from 'vue-router'
 
 const activeMenu = ref(false)
 
-function closeMenu() {
-  activeMenu.value = false
-}
+	function closeMenu() {
+	  activeMenu.value = false
+	}
 
 </script>
 <template>
@@ -34,21 +33,22 @@ function closeMenu() {
    </div>
 
 
-    <nav class="invisible bg-gray-900 fixed inset-0 mt-20 px-6 py-12 flex flex-col justify-between lg:visible lg:opacity-100 lg:static lg:bg-transparent lg:mt-0 lg:flex-row lg:flex-1" :class="{ '!visible !opacity-100': activeMenu }">
+  
  
-  <nav class="invisible bg-gray-900 fixed inset-0 mt-20 px-6 py-12 flex flex-col justify-between lg:visible lg:opacity-100 lg:static lg:bg-transparent lg:mt-0 lg:flex-row" :class="{ '!visible !opacity-100': activeMenu }">
-  <ul class="flex flex-col gap-4 lg:flex-row">
-    <li><RouterLink class="text-light-gray p-4 block rounded-lg active" to="/Découvrir les IA">Découvrir les IA</RouterLink></li>
+  <nav class="invisible bg-gray-900 fixed inset-0 px-6 py-12 flex flex-col justify-between lg:visible lg:opacity-100 lg:static lg:bg-transparent lg:mt-0 lg:flex-row lg:flex-1" :class="{ '!visible !opacity-100': activeMenu }" v-scroll-lock="activeMenu">
+  <ul class="my-auto flex flex-col gap-4 lg:flex-row">
+    <li><RouterLink class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg active" to="/DecouvrirlesIA" @click="closeMenu">DÃ©couvrir les IA</RouterLink></li>
     <hr class="border-light-gray">
-    <li><RouterLink class="text-light-gray p-4 block rounded-lg" to="/Proposer">Proposer une IA</RouterLink></li>
+    <li><RouterLink class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg" to="/Proposer" @click="closeMenu">Proposer une IA</RouterLink></li>
     <hr class="border-light-gray">
-    <li><RouterLink class="text-light-gray p-4 block rounded-lg" to="/Contact">Contact</RouterLink></li>
+    <li><RouterLink class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg" to="/Contact" @click="closeMenu">Contact</RouterLink></li>
     <hr class="border-light-gray">
    
-    <li class="lg:hidden"><RouterLink class="text-light-gray p-4 block rounded-lg" to="/Seconnecter">Se connecter</RouterLink></li>
+    <li class="lg:hidden"><RouterLink class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg" to="/Seconnecter" @click="closeMenu">Se connecter</RouterLink></li>
+    <hr class="border-light-gray mb-6">
     <li class="flex justify-start items-center lg:hidden">
       <RouterLink to="/" class="mr-2">
-        <img src="/public/projet_web/englishflag.webp"  alt="card">
+        <img src="/public/projet_web/englishflag.webp"  alt="card" class="w-2/4">
       </RouterLink>
       <RouterLink to="/" class="ml-2">
         <iconsoleil/>
@@ -59,7 +59,7 @@ function closeMenu() {
 
 <div class="hidden lg:flex items-center gap-4 px-4 lg:flex-row">
   <RouterLink to="/">
-    <img src="/public/projet_web/englishflag.webp"  alt="card">
+    <img src="/public/projet_web/englishflag.webp"  alt="card" class="w-2/4">
   </RouterLink>
 
   <RouterLink to="/">
@@ -71,7 +71,7 @@ function closeMenu() {
   </RouterLink>
 </div>
 
-    </nav>
+
 
     
   </header>
