@@ -3,7 +3,7 @@
 import { ref } from 'vue'
 import logo from '@/components/logo.vue'
 import drapeau from '@/components/icons/drapeau.vue'
-import icone_soleil from '@/components/icons/icone_soleil.vue'
+import iconsoleil from '@/components/icons/iconsoleil.vue'
 import { RouterLink } from 'vue-router'
 
 const activeMenu = ref(false)
@@ -52,7 +52,7 @@ function closeMenu() {
         <drapeau/>
       </RouterLink>
       <RouterLink to="/" class="ml-2">
-        <icone_soleil/>
+        <iconsoleil/>
       </RouterLink>
     </li>
   </ul>
@@ -64,7 +64,7 @@ function closeMenu() {
   </RouterLink>
 
   <RouterLink to="/">
-    <icone_soleil/>
+    <iconsoleil/>
   </RouterLink>
 
   <RouterLink class="flex-1 p-4 rounded-lg text-indigo-500 font-bold lg:flex-none lg:px-6" to="/Seconnecter">

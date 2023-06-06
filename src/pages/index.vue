@@ -2,6 +2,7 @@
 import hero from '@/components/hero.vue'
 import { allIA } from '@/backend';
 import CardVue from '@/components/Card.vue'
+import InscriptionVue from './pages/Inscription'
 
 
 </script>
@@ -60,5 +61,5 @@ traduction automatique.
  Vous pouvez vous désabonner à tout moment. </h3>
 
  </div>
-  
+  <InscriptionVue/>
 </template>
