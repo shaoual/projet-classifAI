@@ -31,7 +31,7 @@ import { RouterView } from 'vue-router'
           <p class="mt-10 text-center text-white text-sm ">J'ai oublié mon mot de passe</p>
 
         <div class="flex justify-center space-x-4">
-            <RouterLink to="/inscription"><button class="bg-white text-black font-bold py-2 px-5 rounded inline-flex items-center lg:flex-row">S'inscrire</button></RouterLink>
+            <RouterLink to="/Inscription"><button class="bg-white text-black font-bold py-2 px-5 rounded inline-flex items-center lg:flex-row">S'inscrire</button></RouterLink>
             <RouterLink to="/profil"><button class="bg-white text-black font-bold py-2 px-5 rounded inline-flex items-center lg:flex-row">Se connecter</button></RouterLink>
         </div>
 
