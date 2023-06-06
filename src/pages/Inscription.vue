@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import PocketBase from 'pocketbase'
 </script>
 
 <template>
@@ -25,21 +26,21 @@ import { RouterView } from 'vue-router'
               <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-email">
                   E-mail
               </label>
-              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-email" type="email">
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="login" type="email">
           </div>
 
           <div class="mb-2 md:mb-8">
-              <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-email">
+              <label class="block tracking-wide text-Jet text-xs mb-2" for="passwd">
                   Mot de passe
               </label>
-              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-email" type="email">
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="passwd" type="email">
           </div>
 
           <div class="mb-2 md:mb-8">
               <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-email">
                   Confirmer le mot de passe
               </label>
-              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-email" type="email">
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="passwd" type="email">
           </div>
 
           <div class="flex items-center justify-center">
@@ -48,13 +49,35 @@ import { RouterView } from 'vue-router'
             </div>
 
           <div class="md:col-span-2 flex justify-center m-4 ">
-            <button class="bg-purple-500 text-white font-bold rounded py-2 px-10 mb-5" type="button">S'inscrire</button>
+            <button class="bg-purple-500 text-white font-bold rounded py-2 px-10 mb-5" type="button" v-on:click="register()">S'inscrire</button>
           </div>
 
        <RouterLink to="/seconnecter">
         <p class="text-center">Déjà un compte ? <span class="text-violet-500">Se connecter</span></p>
        </RouterLink>
       </form>
-      <RouterView />
+      
   </main>
-  </template>
+  
+ 
+
+  <RouterView />
+  </template> 
+  
+  <script>
+export const pb = new PocketBase('http://193.168.146.83:8090') ;
+export default {
+  methods: {
+    
+    async register() {
+      await pb.collection('users').create({
+        email: document.getElementById("login").value,
+        password: document.getElementById("passwd").value,
+        passwordConfirm: document.getElementById("passwd").value,
+        name: document.getElementById ("Name").value, 
+      });
+    }
+    
+  }
+}
+</script>
