@@ -2,7 +2,7 @@
 import hero from '@/components/hero.vue'
 import { allIA } from '@/backend';
 import CardVue from '@/components/Card.vue'
-const IAListe = await allIA();
+
 
 </script>
 

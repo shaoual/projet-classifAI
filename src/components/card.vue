@@ -30,7 +30,7 @@ const img0 = props.Image?.[0]
                     <svg width="56" height="52" viewBox="0 0 56 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <rect width="56" height="51.9348" rx="10" fill="url(#pattern0)"/>
   
-  </svg><p>lln, </p> <P class="mr-2 text-gray-400">India</P>
+  </svg><p>titre </p> <P class="mr-2 text-gray-400">India</P>
   
                   
                 </div>
