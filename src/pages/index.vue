@@ -61,10 +61,5 @@ traduction automatique.
 
  </div>
 
- <main>
-    
-    <CardVue v-for="uneIA in IAListe" :key="uneIA.id"
-     v-bind="{...uneIA}"/>
-  </main>
   
 </template>
