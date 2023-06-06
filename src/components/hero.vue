@@ -42,7 +42,7 @@ import { RouterLink } from 'vue-router'
 
 <div class="flex justify-center md:float-left">
       <button class="bg-purple-900 hover:bg-gray-400 text-white mt-10 py-4 px-14 rounded inline-flex items-center border-2 border-whiter lg:flex-row">
-        <RouterLink to="/Inscription">Découvrir les IA</RouterLink>
+        <RouterLink to="/DecouvrirlesIA">Découvrir les IA</RouterLink>
       </button>
     </div>
 
