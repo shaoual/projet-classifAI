@@ -60,10 +60,5 @@ traduction automatique.
  Vous pouvez vous désabonner à tout moment. </h3>
 
  </div>
- <main>
-    
-    <CardVue  v-for="uneIA in IAListe" :key="uneIA.id"
-     v-bind="{...uneIA}"/>
-  </main>
   
 </template>
