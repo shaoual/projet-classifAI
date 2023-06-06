@@ -40,6 +40,6 @@ import { RouterLink } from 'vue-router'
         <p class="mt-6">Modifications de la présente politique en matière de cookies Nous pouvons mettre à jour la présente politique en matière de cookies de temps à autre en publiant une nouvelle version sur notre site. Nous vous recommandons de consulter régulièrement cette politique en matière de cookies afin de prendre connaissance de tout changement.</p>
 
     </div>
-
+    <RouterView />
 </main>
 </template>
