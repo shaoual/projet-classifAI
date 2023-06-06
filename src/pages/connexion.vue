@@ -1,91 +1,60 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { RouterView } from 'vue-router'
-import { RouterLink } from 'vue-router'
-
 </script>
+
 <template>
-  <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
-    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-      <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">S'inscrire</h2>
-    </div>
+  <main class="main-content">
 
-    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-      <form class="space-y-6" action="#" method="POST">
 
-        <div>
-          <label class="block uppercase tracking-wide  text-xs text-white mb-2" for="grid-first-name">
-            Nom
-          </label>
-          <div class="mt-2">
-            <input id="grid-first-name" name="first-name" type="text" autocomplete="given-name" required
-              class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+        <h2 class="text-center">S'INSCRIRE</h2>
+       
+        <form class="space-y-6 mt-10 mb-36 sm:mx-auto sm:w-full sm:max-w-sm">
+          <div class="mb-2 md:mb-8">
+              <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-last-name">
+                  Nom
+              </label>
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-last-name" type="text">
           </div>
-        </div>
-
-        <div>
-          <label class="block uppercase tracking-wide text-white text-xs  mb-2" for="grid-last-name">
-            Prénom
-          </label>
-          <div class="mt-2">
-            <input id="grid-last-name" name="last-name" type="text" autocomplete="family-name" required
-              class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          <div class="mb-2 md:mb-8">
+              <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-first-name">
+                  Prénom
+              </label>
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-first-name" type="text">
           </div>
-        </div>
-
-        <div>
-          <label for="email" class="block text-sm  leading-6 text-white">E-mail </label>
-          <div class="mt-2">
-            <input id="email" name="email" type="email" autocomplete="email" required
-              class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          <div class="mb-2 md:mb-8">
+              <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-email">
+                  E-mail
+              </label>
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-email" type="email">
           </div>
-        </div>
 
-                
-        <div>
-          <div class="flex items-center justify-between">
-            <label for="password" class="block text-sm leading-6 text-white">Mot de passe </label>
+          <div class="mb-2 md:mb-8">
+              <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-email">
+                  Mot de passe
+              </label>
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-email" type="email">
           </div>
-          <div class="mt-2">
-            <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-          </div>
-        </div>
 
-        <div>
-          <div class="flex items-center justify-between">
-            <label for="password" class="block text-sm  leading-6 text-white">Confirmer le mot de passe </label>
+          <div class="mb-2 md:mb-8">
+              <label class="block tracking-wide text-Jet text-xs mb-2" for="grid-email">
+                  Confirmer le mot de passe
+              </label>
+              <input class="block w-full bg-Impure-white text-Jet border rounded py-3 px-4 mb-3 h-11" id="grid-email" type="email">
           </div>
-          <div class="mt-2">
-            <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+
+          <div class="flex items-center justify-center">
+            <input type="checkbox" id="conditions" name="conditions" class="mr-2 purple-checkbox">
+            <RouterLink to="/conditions"><label for="conditions">J'accepte les conditions d'utilisation</label></RouterLink>
+            </div>
+
+          <div class="md:col-span-2 flex justify-center m-4 ">
+            <button class="bg-purple-500 text-white font-bold rounded py-2 px-10 mb-5" type="button">S'inscrire</button>
           </div>
-        </div>
-        
-        <div class="md:flex md:items-end mb-6">
-    <div class="md:w-1/3"></div>
-    
-    <label class="md:w-2/3 block text-white ">
-      <input class="mr-2 leading-tight" type="checkbox">
-      <span class="text-sm">
-        J'accepte les conditions générales d'utilisations
-      </span>
-    </label>
-  </div>
 
-        <div class="flex justify-center">
-        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-10 rounded inline-flex items-center lg:flex-row">
-          <span>S'inscrire</span>
-          </button>
-</div>
-
+       <RouterLink to="/seconnecter">
+        <p class="text-center">Déjà un compte ? <span class="text-violet-500">Se connecter</span></p>
+       </RouterLink>
       </form>
-
-      <p class="mt-10 text-center text-sm ">
-        Déja un compte?
-        <a href="#" class="font-semibold leading-6  hover:text-indigo-500">Se connecter</a>
-      </p>
-    
-
-    </div>
-  </div>
-  <RouterView />
-</template>
+      <RouterView />
+  </main>
+  </template>
