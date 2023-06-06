@@ -26,14 +26,14 @@ import { RouterLink } from 'vue-router'
   
 
   <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5 mt-20 mb-44">
-    <Card1/>
-    <Card1/>
-    <Card1/>
-    <Card1/>
-    <Card1/>
-    <Card1/>
-    <Card1/>
-    <Card1/>
+    <card1/>
+    <card1/>
+    <card1/>
+    <card1/>
+    <card1/>
+    <card1/>
+    <card1/>
+    <card1/>
   </div>
 
 
