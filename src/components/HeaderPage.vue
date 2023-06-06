@@ -37,7 +37,7 @@ const activeMenu = ref(false)
  
   <nav class="invisible bg-gray-900 fixed inset-0 px-6 py-12 flex flex-col justify-between lg:visible lg:opacity-100 lg:static lg:bg-transparent lg:mt-0 lg:flex-row lg:flex-1" :class="{ '!visible !opacity-100': activeMenu }" v-scroll-lock="activeMenu">
   <ul class="my-auto flex flex-col gap-4 lg:flex-row">
-    <li><RouterLink class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg active" to="/DecouvrirlesIA" @click="closeMenu">DÃ©couvrir les IA</RouterLink></li>
+    <li><RouterLink class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg active" to="/DecouvrirlesIA" @click="closeMenu">Découvrir les IA</RouterLink></li>
     <hr class="border-light-gray">
     <li><RouterLink class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg" to="/Proposer" @click="closeMenu">Proposer une IA</RouterLink></li>
     <hr class="border-light-gray">
