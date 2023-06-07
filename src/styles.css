@@ -50,7 +50,7 @@ h2 {
 h3 {
     font-size: 1.125rem; 
     font-weight: 500; 
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
   .main-content {
@@ -86,4 +86,4 @@ h3 {
       .card-container {
         width: 320px;
       }
-    } 
+    }
