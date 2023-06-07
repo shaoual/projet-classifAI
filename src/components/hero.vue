@@ -5,11 +5,11 @@ import { RouterLink } from 'vue-router'
 <template>
 
     <section>
-      
-    <div class="flex items-center justify-center mt-20 md:grid md:grid-cols-2 md:mt-32 lg:mt-62">
+
+    <div class="flex items-center justify-center mt-20 md:grid md:grid-cols-2 md:mt-32 lg:mt-52">
 
  <div class="hidden md:block order-1 md:order-2 mx-auto">
-                
+
                 <div class="flex justify-center">
                   <img src="/Projet_web/ia_illustration_1.png"
                     class="w-2/3 md:full lg:1/3" alt="illustration" />
@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router'
 
 
 
-  <div class="order-2 md:order-1 mx-12 md:mx-22 lg:mx-40">              
+  <div class="order-2 md:order-1 ">
   <div class="lg:flex">
     <h1 class="text-4xl text-center md:text-justify font-Helvetica font-bold mt-3 text-white">ClassifAI</h1>
   </div>
@@ -48,10 +48,10 @@ import { RouterLink } from 'vue-router'
 
   </div>
 
-    </div>  
+    </div>
  
 
-      
+
       <!-- Jumbotron -->
     </section>
     <!-- Section: Design Block -->
